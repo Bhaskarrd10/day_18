@@ -1,8 +1,16 @@
 from turtle import Turtle, Screen
 
-timmmmy = Turtle()
+# import turtle as t
 
-timmmmy.shape("turtle")
+timy = Turtle()
+
+timy.shape("turtle")
+timy.color("Red")
+
+for _ in range(4):
+    timy.forward(100)
+    timy.right(90)
+
 
 
 
