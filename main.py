@@ -45,13 +45,11 @@ new_lists = [n+1 for n in numbers]
 new_name = [letter for letter in name]
 print (new_name)
 
+names= ["reddy", "ajay", "bha", "diya"]
 
-
-
-
-
-
-
+short_name = [name for name in names if len(name) < 5]
+name_uper = [name.upper() for name in names if len(name) > 4]
+print(name_uper)
 
 
 
